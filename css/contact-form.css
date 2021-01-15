@@ -1,0 +1,116 @@
+
+
+body {
+  background-color: #FAEEE9;
+  background-image: none;    
+}
+
+.main-container {
+  max-width: 900px;
+  padding: 40px;
+  margin: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.contact-form-title {
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-title p {
+  font-size: 20px;
+}
+
+/* Form Styling */
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #0ebfdb;
+  color: white;
+  margin-top: 20px ;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #FEBCB4;
+  color: #a77473;
+
+}
+
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: right;
+  width: 90%;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 870px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+  input[type=submit] {
+      width: 100%;
+      margin-top: 20;
+  }
+}
+
+
+
+/* Color Theme Swatches in Hex */
+/* .Doughnut--Time-1-hex { color: #F2778D; }
+.Doughnut--Time-2-hex { color: #FEBCB4; }
+.Doughnut--Time-3-hex { color: #A77473; }
+.Doughnut--Time-4-hex { color: #FAEEE9; }
+.Doughnut--Time-5-hex { color: #B4D9B6; } */

@@ -1,0 +1,115 @@
+body {
+  background-color: #faeee9;
+  background-image: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.faq {
+  width: 424px;
+  height: 120px;
+  font-size: 20px;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.faq h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.faq h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+#orders {
+  width: 250px;
+  height: 250px;
+  background-color: #febcb4;
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#delivery {
+  width: 250px;
+  height: 250px;
+  background-color: #febcb4;
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#gift {
+  width: 250px;
+  height: 250px;
+  background-color: #febcb4;
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#orders:hover {
+  background-color: #febcb4;
+  color: #a77473;
+  cursor: pointer;
+}
+
+#delivery:hover {
+  background-color: #febcb4;
+  color: #a77473;
+  cursor: pointer;
+}
+
+#gift:hover {
+  background-color: #febcb4;
+  color: #a77473;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 780px) {
+  .container-menu {
+    display: none;
+  }
+  .burger-menu-button {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .questions {
+    flex-direction: column;
+  }
+}
+
+/* Color Theme Swatches in Hex */
+/* .Doughnut--Time-1-hex { color: #F2778D; }
+  .Doughnut--Time-2-hex { color: #FEBCB4; }
+  .Doughnut--Time-3-hex { color: #A77473; }
+  .Doughnut--Time-4-hex { color: #FAEEE9; }
+  .Doughnut--Time-5-hex { color: #B4D9B6; } */

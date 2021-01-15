@@ -1,0 +1,257 @@
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  margin: 0;
+  background-image: url("/assets/donuts-bg-index\ chiara.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Staatliches", cursive;
+}
+
+.topnav {
+  border: none;
+  background-color: #febcb4;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.topnav-right-menu,
+.topnav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.topnav-logo {
+  padding: 0 15px;
+  margin: 0 20px 0 0;
+}
+
+.container-menu a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 8px 10px;
+}
+
+.menu-element {
+  color: black;
+}
+
+.menu-element--active {
+  color: #0ebfdb;
+}
+
+.topnav a:hover {
+  color: #a77473;
+}
+
+.active {
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 55px;
+  width: 55px;
+}
+
+.container-img img {
+  height: 100%;
+  width: auto;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.container-home a {
+  color: #0ebfdb;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 8px 10px;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.burger-menu-button {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px 15px;
+  font-size: 35px;
+  color: black;
+  cursor: pointer;
+}
+
+.burger-menu-button:hover {
+  color: #a77473;
+}
+
+.dropdown {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #f2778d;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dropdown-close {
+  display: block;
+  text-align: right;
+  font-size: 42px;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  transition: all linear 0.3s;
+}
+
+.dropdown a:hover {
+  background-color: #faeee9;
+  color: #a77473;
+}
+
+.dropdown--hidden {
+  display: none;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 150px 0;
+}
+
+#reviews {
+  width: 424px;
+  height: 347px;
+  background-color: #faeee9;
+  font-family: "Staatliches", cursive;
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#reviews span {
+  font-family: "American Typewriter";
+  font-size: 20px;
+}
+
+#established {
+  width: 452px;
+  height: 129px;
+  background-color: #faeee9;
+  font-family: "American Typewriter";
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+#month {
+  width: 452px;
+  height: 129px;
+  background-color: #faeee9;
+  font-family: "American Typewriter";
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.text-boxes-stacked {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px 20px 85px;
+}
+
+#order {
+  background-color: #0ebfdb;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  margin: 20px;
+  padding: 28px;
+  text-align: center;
+}
+
+#order:hover {
+  background-color: #febcb4;
+  color: #a77473;
+}
+
+.order-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .container-menu {
+    display: none;
+  }
+  .burger-menu-button {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .text-boxes {
+    display: none;
+  }
+  .container-text {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: -70px 0 0 0;
+  }
+}
+
+/* Color Theme Swatches in Hex */
+/* .Doughnut--Time-1-hex { color: #F2778D; }
+.Doughnut--Time-2-hex { color: #FEBCB4; }
+.Doughnut--Time-3-hex { color: #A77473; }
+.Doughnut--Time-4-hex { color: #FAEEE9; }
+.Doughnut--Time-5-hex { color: #B4D9B6; } */

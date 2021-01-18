@@ -10,6 +10,7 @@
   height: 647px;
   background-color: #faeee9;
   margin: 50px;
+  padding: 0 30px;
   text-align: center;
   display: flex;
   flex-direction: column-reverse;

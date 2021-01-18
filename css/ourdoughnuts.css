@@ -12,7 +12,7 @@ body {
 
 .title p {
   font-size: 30px;
-  margin: 50px;
+  margin: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ body {
 .ourstory {
   max-width: 1500px;
   font-size: 20px;
-  margin: 0 50px;
+  margin: 20 50px;
   display: flex;
   justify-content: space-around;
 }

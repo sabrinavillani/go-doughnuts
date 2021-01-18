@@ -27,7 +27,7 @@
 
 .options {
   width: 624px;
-  height: 647px;
+  height: 547px;
   background-color: #faeee9;
   margin: 40px;
   padding: 15px;
@@ -46,7 +46,7 @@
 
 #order {
   padding: 22px 40px;
-  margin: 0;
+  margin: 20px;
 }
 
 @media only screen and (max-width: 470px) {

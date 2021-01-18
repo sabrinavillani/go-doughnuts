@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  max-width: 1200px;
 }
 
 .title p {
@@ -18,26 +19,26 @@ body {
   flex-direction: column;
 }
 
+.ourstory, .ourmethod {
+  margin: 0 0 100px 0;
+}
+
 .ourstory {
-  max-width: 1500px;
   font-size: 20px;
-  margin: 20 50px;
   display: flex;
   justify-content: space-around;
 }
 
 .ourstory-paragraph {
-  height: 300px;
-  width: 686.67px;
   font-family: "American Typewriter";
   margin: 0;
 }
 
 .ourstory-img {
   height: 300px;
-  width: 459.33px;
-  margin: 0 50px;
+  margin: 0 50px 0 0;
 }
+
 .ourstory-img img {
   height: 100%;
   width: auto;
@@ -45,26 +46,22 @@ body {
 }
 
 .ourmethod {
-  max-width: 1500px;
   font-size: 20px;
-  margin: 100px 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .ourmethod-paragraph {
-  height: 300px;
-  width: 636.67px;
   font-family: "American Typewriter";
   margin: 0;
 }
 
 .ourmethod-img {
   height: 300px;
-  width: 459.33px;
-  margin: 0 50px;
+  margin: 0 0 0 50px;
 }
+
 .ourmethod-img img {
   height: 100%;
   width: auto;

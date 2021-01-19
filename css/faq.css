@@ -74,22 +74,11 @@ body {
   justify-content: center;
 }
 
-#orders:hover {
-  background-color: #febcb4;
-  color: #a77473;
-  cursor: pointer;
-}
-
-#delivery:hover {
-  background-color: #febcb4;
-  color: #a77473;
-  cursor: pointer;
-}
-
+#orders:hover,
+#delivery:hover,
 #gift:hover {
   background-color: #febcb4;
   color: #a77473;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 780px) {

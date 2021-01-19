@@ -158,7 +158,10 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+}
+
+#reviews p {
+  margin: 10px 20px;
 }
 
 #reviews span {
@@ -166,34 +169,19 @@ body {
   font-size: 20px;
 }
 
-#established {
-  width: 452px;
-  height: 129px;
-  background-color: #faeee9;
-  font-family: "American Typewriter";
-  font-size: 22px;
-  margin: auto;
-  padding: 10px;
-  text-align: center;
-}
-
-#established p {
-  margin: auto;
-}
-
-#month p {
-  margin: auto;
-}
-
+#established,
 #month {
   width: 452px;
-  height: 129px;
+  height: auto;
   background-color: #faeee9;
   font-family: "American Typewriter";
   font-size: 22px;
-  margin: auto;
-  padding: 10px;
   text-align: center;
+}
+
+#established p,
+#month p {
+  margin: 15px 0;
 }
 
 .established-emoji,
@@ -206,7 +194,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: auto;
+  margin: 15px auto;
 }
 
 .text-boxes {

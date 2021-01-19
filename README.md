@@ -2,6 +2,6 @@
 
 This is a personal project in order to improve my skills as a developer.
 
-#### Live demo
+### Live demo:
 
 https://relaxed-goldberg-a4ed96.netlify.app/

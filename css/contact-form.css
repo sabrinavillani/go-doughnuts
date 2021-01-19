@@ -1,14 +1,12 @@
-
-
 body {
-  background-color: #FAEEE9;
-  background-image: none;    
+  background-color: #faeee9;
+  background-image: none;
 }
 
 .main-container {
   max-width: 900px;
   padding: 40px;
-  margin: auto; 
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +17,6 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
 
 .contact-form-title {
   font-size: 30px;
@@ -36,12 +33,15 @@ body {
 /* Form Styling */
 
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
+input[type="text"],
+select,
+textarea {
   padding: 12px;
   border: 1px solid white;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+  font-family: "Arial";
 }
 
 /* Style the label to display next to the inputs */
@@ -50,10 +50,10 @@ label {
 }
 
 /* Style the submit button */
-input[type=submit] {
+input[type="submit"] {
   background-color: #0ebfdb;
   color: white;
-  margin-top: 20px ;
+  margin-top: 20px;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -61,12 +61,10 @@ input[type=submit] {
   float: right;
 }
 
-input[type=submit]:hover {
-  background-color: #FEBCB4;
+input[type="submit"]:hover {
+  background-color: #febcb4;
   color: #a77473;
-
 }
-
 
 /* Floating column for labels: 25% width */
 .col-25 {
@@ -84,7 +82,6 @@ input[type=submit]:hover {
   margin-top: 6px;
   display: flex;
   flex-direction: column;
-
 }
 
 /* Clear floats after the columns */
@@ -96,17 +93,16 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 870px) {
-  .col-25, .col-75 {
+  .col-25,
+  .col-75 {
     width: 100%;
     margin-top: 0;
   }
-  input[type=submit] {
-      width: 100%;
-      margin-top: 20;
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 20;
   }
 }
-
-
 
 /* Color Theme Swatches in Hex */
 /* .Doughnut--Time-1-hex { color: #F2778D; }

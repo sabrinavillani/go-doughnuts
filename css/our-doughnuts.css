@@ -1,0 +1,129 @@
+body {
+  background-color: #faeee9;
+  background-image: none;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.title p {
+  font-size: 30px;
+  margin: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ourstory,
+.ourmethod {
+  margin: 0 0 100px 0;
+  font-size: 20px;
+  display: flex;
+
+}
+
+.ourstory-paragraph,.ourmethod-paragraph {
+  font-family: "American Typewriter";
+  margin: 0;
+}
+
+.ourstory-img {
+  height: 300px;
+  margin: 0 50px 0 0;
+}
+
+.ourstory-img img,.ourmethod-img img {
+  height: 100%;
+  width: auto;
+  border-radius: 5px;
+}
+
+.ourmethod-img {
+  height: 300px;
+  margin: 0 0 0 50px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .title,
+  .title p {
+    margin: 25px;
+  }
+
+  .ourstory,
+  .ourmethod {
+    margin: 0;
+    font-size: 16px;
+  }
+  .ourstory {
+    flex-direction: column;
+  }
+  .ourstory-paragraph,
+  .ourmethod-paragraph {
+    width: 459.33px;
+    height: 250px;
+    margin-top: 40px;
+  }
+  .ourstory-img,
+  .ourmethod-img {
+    margin: 0;
+  }
+  .ourmethod {
+    flex-direction: column-reverse;
+  }
+  .ourmethod-paragraph {
+    margin: 0;
+  }
+  .ourmethod-img {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .title,
+  .title p {
+    margin: 15px;
+    font-size: 20px;
+  }
+  .main-container {
+    margin: auto;
+    width: 70%;
+    align-content: center;
+  }
+
+  .ourstory,
+  .ourmethod {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    margin-bottom: 40px ;
+  }
+  .ourstory-img,
+  .ourmethod-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .ourstory-img img,.ourmethod-img img {
+    height: auto;
+    width: 100%;
+  }  
+  
+  .ourstory-paragraph,
+  .ourmethod-paragraph {
+    width: auto;
+    height: 100%;
+  }
+.ourstory-paragraph {
+  margin: 0;
+}
+.ourmethod-img {
+  margin: 0;
+  margin-bottom: 20px;
+}
+

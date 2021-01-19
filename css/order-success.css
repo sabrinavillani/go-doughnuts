@@ -1,13 +1,14 @@
 .main-container {
+  height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: auto;
-  align-items: center;
+  justify-content: center;
 }
 
 .title {
-  width: 624px;
-  height: 647px;
+  width: 515px;
+  height: 315px;
   background-color: #faeee9;
   margin: 50px;
   padding: 0 30px;
@@ -15,5 +16,15 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  font-size: 60px;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 578px) {
+  .title {
+    width: 315px;
+    height: 115px;
+    margin: 50px 0;
+    padding: 0;
+    font-size: 20px;
+  }
 }

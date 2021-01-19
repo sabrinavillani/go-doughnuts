@@ -171,9 +171,18 @@ body {
   height: 129px;
   background-color: #faeee9;
   font-family: "American Typewriter";
-  font-size: 24px;
+  font-size: 22px;
+  margin: auto;
   padding: 10px;
   text-align: center;
+}
+
+#established p {
+  margin: auto;
+}
+
+#month p {
+  margin: auto;
 }
 
 #month {
@@ -181,10 +190,23 @@ body {
   height: 129px;
   background-color: #faeee9;
   font-family: "American Typewriter";
-  font-size: 24px;
-  margin: 0;
+  font-size: 22px;
+  margin: auto;
   padding: 10px;
   text-align: center;
+}
+
+.established-emoji,
+.month-emoji {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
 }
 
 .text-boxes {
@@ -201,6 +223,13 @@ body {
   align-items: center;
   margin: 20px 20px 20px 85px;
 }
+.order-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 
 #order {
   background-color: #0ebfdb;
@@ -209,7 +238,7 @@ body {
   text-decoration: none;
   border-radius: 8px;
   border: none;
-  margin: 50px 20px;
+  margin: 40px 20px;
   padding: 28px;
   text-align: center;
 }
@@ -217,14 +246,6 @@ body {
 #order:hover {
   background-color: #febcb4;
   color: #a77473;
-}
-
-.order-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 20px;
 }
 
 @media only screen and (max-width: 780px) {
@@ -247,6 +268,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: -70px 0 0 0;
+  }
+  .order-button {
+    margin: 50px 20px;
   }
 }
 
